@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity"
+    >
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="StudyFloatUtil Demo"
+      android:textSize="30sp"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="left"
+      android:padding="10dp"
+      android:text="demo操作顺序\n1.初始化\n2.设置开关 打开\n3.显示悬浮窗\n\n悬浮窗打开后，切换前后台可以在悬浮窗中添加新的log。"
+      android:textSize="20sp"
+      />
+
+  <Button
+      android:id="@+id/btn_init_main"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="初始化"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <Button
+      android:id="@+id/btn_open_main"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="设置开关 打开"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <Button
+      android:id="@+id/btn_close_main"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="设置开关 关闭"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <Button
+      android:id="@+id/btn_show_main"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="显示悬浮窗"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <Button
+      android:id="@+id/btn_remove_main"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="关闭悬浮窗"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+</LinearLayout>
